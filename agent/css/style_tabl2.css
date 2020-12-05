@@ -1,0 +1,44 @@
+table {
+border-collapse: collapse; /*убираем пустые промежутки между ячейками*/
+border: 1px solid grey; /*устанавливаем для таблицы внешнюю границу серого цвета толщиной 1px*/
+}
+th {border: 1px solid grey;}
+td {border: 1px solid grey;}
+th, td {border: 1px solid grey;}
+table {border: 1px solid grey;}
+/* устанавливаем для таблицы внешнюю границу серого цвета толщиной 3px */
+table {border-top: 1px solid grey; }
+/* задаём для ячейки тела таблицы границу серого цвета толщиной 1px */
+td {border-bottom: 1px solid grey;}
+table {max-width: 1100px;}
+th {width: 40%;}
+td:first-child {width: 30%;}
+th, td {padding: 5px 10px;}
+caption {
+caption-side: bottom;
+text-align: right;
+padding: 5px 0; 
+font-size: 12px;
+}
+
+
+table {
+background: url("") 98% 86% no-repeat;
+}
+th {
+font-weight: normal;
+font-size: 12px;
+color: #000000;
+padding: 5px 6px;
+background: white;
+}
+td {
+color: #000000;
+border-top: 1px solid white;
+padding: 5px 3px;
+background: #d9d9fa;
+transition: .3s;
+}
+tr:hover td {
+background: rgba(51, 51, 153, .1);
+}
